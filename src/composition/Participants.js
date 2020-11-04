@@ -10,8 +10,9 @@ export default function Participants (props) {
             <li className="Participants-head">
               <h3>{props.name}</h3>
             </li>
-            <li id={!props.onstage ? "staged" : null}>
-              <p>on stage</p>
+            <li id={!props.onstage ? "staged" : "unstaged"}>
+              <p id='staged'>on stage</p>
+              <p id='unstaged'>in session</p>
             </li>
           </ul>
         </div>
