@@ -1,0 +1,13 @@
+.stageBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  flex: 2;
+}
+
+.stage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 150px;
+}

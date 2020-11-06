@@ -1,0 +1,12 @@
+.list-item {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: left;
+  max-width: 200px;
+  margin-left: 20px;
+}
+
+.partList {
+  width: 65px;
+}
